@@ -19,7 +19,7 @@
 
 Спочатку склонуйте цей репозиторій на ваш локальний комп'ютер:
 
-git clone https://github.com/<ваш_логін>/exam-simulator.git
+git clone https://github.com/<ваш_логін>/netacad-ITNv7-final-exam-ukr.git
 
 ### Крок 2: Перейти до папки проєкту
 
@@ -58,16 +58,17 @@ python NetworkTestAll.py
 
 ## Структура проєкту
 
+```
 netacad-ITNv7-final-exam-ukr/
-├── NetExam_data.json         # Файл з питаннями для тесту
-├── NetPhotos/                # Папка з зображеннями для питань
+├── NetExam_data.json # Файл з питаннями для тесту
+├── NetPhotos/      # Папка з зображеннями для питань
 │   ├── Answer_1.jpg
 │   ├── Answer_2.jpg
 │   └── ...
-├── NetworkTestAll.py         # Основний код симулятора
-├── requirements.txt          # Файл із залежностями
-└── README.md                 # Інструкції з використання
-
+├── NetworkTestAll.py # Основний код симулятора
+├── requirements.txt  # Файл із залежностями
+└── README.md         # Інструкції з використання
+```
 ## Як працює тест?
 
 - **Питання з варіантами відповідей**: Вам буде запропоновано вибрати один або кілька правильних варіантів (наприклад, `a`, `b`, `c`, `d`).
