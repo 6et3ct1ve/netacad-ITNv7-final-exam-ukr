@@ -1,5 +1,6 @@
 import os
 import json
+import random
 from PIL import Image
 
 
@@ -41,6 +42,9 @@ def run_exam():
     questions = load_questions_from_json( "NetExam_data.json" )
     if not questions:
         return  # Якщо питання не вдалося завантажити, припиняємо виконання
+
+    # Перетасовуємо питання в випадковому порядку
+    random.shuffle(questions)
 
     correct_answers = 0
     total_questions = len( questions )
