@@ -30,11 +30,15 @@ cd netacad-ITNv7-final-exam-ukr
 Щоб ізолювати залежності вашого проєкту, створіть та активуйте віртуальне середовище:
 
 - **Для Windows**:
+
     python -m venv venv
+    
     venv\Scripts\activate
 
 - **Для Mac/Linux**:
+
     python3 -m venv venv
+
     source venv/bin/activate
 
 ### Крок 4: Встановити залежності
