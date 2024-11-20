@@ -19,7 +19,7 @@
 
 Спочатку склонуйте цей репозиторій на ваш локальний комп'ютер:
 
-git clone https://github.com/<ваш_логін>/netacad-ITNv7-final-exam-ukr.git
+git clone https://github.com/6et3ct1ve/netacad-ITNv7-final-exam-ukr.git
 
 ### Крок 2: Перейти до папки проєкту
 
