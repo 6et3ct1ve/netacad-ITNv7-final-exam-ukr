@@ -1,5 +1,55 @@
 [
     {
+        "question": "Which two statements are characteristics of a virus? (Choose two.)",
+        "options": [
+            "a) A virus typically requires end-user activation.",
+            "b) A virus can be dormant and then activate at a specific time or date.",
+            "c) A virus replicates itself by independently exploiting vulnerabilities in networks.",
+            "d) A virus has an enabling vulnerability, a propagation mechanism, and a payload.",
+            "e) A virus provides the attacker with sensitive data, such as passwords"
+        ],
+        "answer": [
+            "a",
+            "b"
+        ]
+    },
+    {
+        "question": "What is a characteristic of a Trojan horse as it relates to network security?",
+        "options": [
+            "a) Too much information is destined for a particular memory block, causing additional memory areas to be affected.",
+            "b) Extreme quantities of data are sent to a particular network device interface.",
+            "c) An electronic dictionary is used to obtain a password to be used to infiltrate a key network device.",
+            "d) Malware is contained in a seemingly legitimate executable program."
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "What technique is used in social engineering attacks?",
+        "options": [
+            "a) sending junk email",
+            "b) buffer overflow",
+            "c) phishing",
+            "d) man-in-the-middle"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What is a purpose of implementing VLANs on a network?",
+        "options": [
+            "a) They can separate user traffic.",
+            "b) They prevent Layer 2 loops.",
+            "c) They eliminate network collisions.",
+            "d) They allow switches to forward Layer 3 packets without a router."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
         "question": "",
         "options": [
             "a)",
@@ -9,6 +59,402 @@
         ],
         "answer": [
             "a"
+        ]
+    },
+        {
+        "question": "Refer to the exhibit. A cybersecurity analyst is viewing packets forwarded by switch S2. What addresses will identify frames containing data sent from PCA to PCB?",
+        "options": [
+            "a) Src IP: 192.168.2.1\nSrc MAC: 00-60-0F-B1-33-33\nDst IP: 192.168.2.101\nDst MAC: 08-CB-8A-5C-BB-BB",
+            "b) Src IP: 192.168.1.212\nSrc MAC: 01-90-C0-E4-AA-AA\nDst IP: 192.168.2.101\nDst MAC: 08-CB-8A-5C-BB-BB\n\n",
+            "c) Src IP: 192.168.1.212\nSrc MAC: 00-60-0F-B1-33-33\nDst IP: 192.168.2.101\nDst MAC: 08-CB-8A-5C-BB-BB",
+            "d) Src IP: 192.168.1.212\nSrc MAC: 00-60-0F-B1-33-33\nDst IP: 192.168.2.101\nDst MAC: 00-D0-D3-BE-00-00"
+        ],
+        "answer": [
+            "c"
+        ],
+        "image": "Sec_5.jpg"
+    },
+    {
+        "question": " A cybersecurity analyst needs to collect alert data. What are three detection tools to perform this task in the Security Onion architecture? (Choose three.)",
+        "options": [
+            "a) CapME",
+            "b) Wazuh",
+            "c) Kibana",
+            "d) Zeek",
+            "e) Sguil",
+            "f) Wireshark"
+        ],
+        "answer": [
+            "a",
+            "b",
+            "d"
+        ]
+    },
+        {
+        "question": "Match the Security Onion tool with the description.",
+        "matching": [
+            [
+                "network-based intrusion detection system"
+            ],
+            [
+                "packet capture application"
+            ],
+            [
+                "host-based intrusion detection system"
+            ],
+            [
+                "high-level cybersecurity analysis console"
+            ]
+        ],
+        "answers": [
+            "Snort",
+            "OSSEC",
+            "Sguil",
+            "Wireshark"
+        ],
+        "answer": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "question": "In network security assessments, which type of test is used to evaluate the risk posed by vulnerabilities to a specific organization including assessment of the likelihood of attacks and the impact of successful exploits on the organization?",
+        "options": [
+            "a) port scanning",
+            "b) risk analysis",
+            "c) penetration testing",
+            "d) vulnerability assessment"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Match the server profile element to the description. (Not all options are used.)",
+        "matching": [
+            [
+                "the parameters defining user access and behavior"
+            ],
+            [
+                "the number of times the server is powered on and off"
+            ],
+            [
+                "the TCP and UDP daemons and ports that are allowed to be open on the server"
+            ],
+            [
+                "the tasks, processes, and applications that are permitted to run on the server"
+            ],
+            [
+                "the definitions of the type of service that an application is allowed to run on a given host"
+            ]
+        ],
+        "answers": [
+            "user accounts",
+            "listening ports",
+            "service accounts",
+            "software environment"
+        ],
+        "answer": [
+            1,
+            3,
+            5,
+            4
+        ]
+    },
+    {
+        "question": "In addressing an identified risk, which strategy aims to shift some of the risk to other parties?",
+        "options": [
+            "a) risk avoidance",
+            "b) risk sharing",
+            "c) risk retention",
+            "d) risk reduction"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+        {
+        "question": "What is a network tap?",
+        "options": [
+            "a) a technology used to provide real-time reporting and long-term analysis of security events",
+            "b) a Cisco technology that provides statistics on packets flowing through a router or multilayer switch",
+            "c) a feature supported on Cisco switches that enables the switch to copy frames and forward them to an analysis device",
+            "d) a passive device that forwards all traffic and physical layer errors to an analysis device"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+        {
+        "question": "Match the monitoring tool to the definition.",
+        "matching": [
+            [
+                "presents real-time reporting and long-term analysis of security events"
+            ],
+            [
+                "provides statistics on packets flowing through a Cisco router or multilayer switch"
+            ],
+            [
+                "captures packets and saves them in a PCAP file"
+            ],
+            [
+                "retrieves information on the operation of network devices"
+            ]
+        ],
+        "answers": [
+            "NetFlow",
+            "Wireshark",
+            "SNMP",
+            "SIEM"
+        ],
+        "answer": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "If a SOC has a goal of 99.999% uptime, how many minutes of downtime a year would be considered within its goal?",
+        "options": [
+            "a) Approximately 5 minutes per year.",
+            "b) Approximately 10 minutes per year",
+            "c) Approximately 20 minutes per year.",
+            "d) Approximately 30 minutes per year."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+        {
+        "question": "The HTTP server has responded to a client request with a 200 status code. What does this status code indicate?",
+        "options": [
+            "a) The request is understood by the server, but the resource will not be fulfilled.",
+            "b) The request was completed successfully.",
+            "c) The server could not find the requested resource, possibly because of an incorrect URL.",
+            "d) The request has been accepted for processing, but processing is not completed."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What is an advantage for small organizations of adopting IMAP instead of POP?",
+        "options": [
+            "a) POP only allows the client to store messages in a centralized way, while IMAP allows distributed storage.",
+            "b) IMAP sends and retrieves email, but POP only retrieves email.",
+            "c) When the user connects to a POP server, copies of the messages are kept in the mail server for a short time, but IMAP keeps them for a long time.",
+            "d) Messages are kept in the mail servers until they are manually deleted from the email client."
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+        {
+        "question": "What debugging security tool can be used by black hats to reverse engineer binary files when writing exploits?",
+        "options": [
+            "a) WinDbg",
+            "b) Firesheep",
+            "c) Skipfish",
+            "d) AIDE"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+        {
+        "question": "Match the attack tools with the description. (Not all options are used.)",
+        "matching": [
+            [
+                "This is used for password cracking by either removing the original password, after bypassing the data encryption, or by outright discovery of the password."
+            ],
+            [
+                "This is a packet crafting tool used to probe and test the robustness of a firewall by using specially crafted, forged packets."
+            ],
+            [
+                "This is a wireless hacking tool used to detect security vulnerabilities in wireless networks."
+            ],
+            [
+                "This is a network scanning tool used to probe network devices, servers, and hosts for open TCP or UDP ports."
+            ]
+        ],
+        "answers": [
+            "Nmap",
+            "Yersinia",
+            "RainbowCrack"
+        ],
+        "answer": [
+            4,
+            2,
+            1
+        ]
+    },
+    {
+        "question": "What are two features of ARP? (Choose two.)",
+        "options": [
+            "a) When a host is encapsulating a packet into a frame, it refers to the MAC address table to determine the mapping of IP addresses to MAC addresses.",
+            "b) If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast.",
+            "c) If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply.",
+            "d) If no device responds to the ARP request, then the originating node will broadcast the data packet to all devices on the network segment.",
+            "f) An ARP request is sent to all devices on the Ethernet LAN and contains the IP address of the destination host and the multicast MAC address."
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+        {
+        "question": "What is a property of the ARP table on a device?",
+        "options": [
+            "a) Entries in an ARP table are time-stamped and are purged after the timeout expires.",
+            "b) Every operating system uses the same timer to remove old entries from the ARP cache.",
+            "c) Static IP-to-MAC address entries are removed dynamically from the ARP table.",
+            "d) Windows operating systems store ARP cache entries for 3 minutes."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "What is the purpose of Tor?",
+        "options": [
+            "a) to allow users to browse the Internet anonymously",
+            "b) to securely connect to a remote network over an unsecure link such as an Internet connection",
+            "c) to donate processor cycles to distributed computational tasks in a processor sharing P2P network",
+            "d) to inspect incoming traffic and look for any that violates a rule or matches the signature of a known exploit"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+        {
+        "question": "Which two network protocols can be used by a threat actor to exfiltrate data in traffic that is disguised as normal network traffic? (Choose two.)",
+        "options": [
+            "a) NTP",
+            "b) DNS",
+            "c) HTTP",
+            "d) syslog",
+            "f) SMTP"
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+    {
+        "question": "What is a key difference between the data captured by NetFlow and data captured by Wireshark?",
+        "options": [
+            "a) NetFlow data shows network flow contents whereas Wireshark data shows network flow statistics.",
+            "b) NetFlow data is analyzed by tcpdump whereas Wireshark data is analyzed by nfdump.",
+            "c) NetFlow provides transaction data whereas Wireshark provides session data.",
+            "d) NetFlow collects metadata from a network flow whereas Wireshark captures full data packets."
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+        {
+        "question": "Which tool captures full data packets with a command-line interface only?",
+        "options": [
+            "a) nfdump",
+            "b) Wireshark",
+            "c) NBAR2",
+            "d) tcpdump"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Which method can be used to harden a device?",
+        "options": [
+            "a) maintain use of the same passwords",
+            "b) allow default services to remain enabled\n",
+            "c) allow USB auto-detection",
+            "d) use SSH and disable the root account access over SSH"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+        {
+        "question": " In a Linux operating system, which component interprets user commands and attempts to execute them?",
+        "options": [
+            "a) GUI",
+            "b) daemon",
+            "c) kernel",
+            "d) shell"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "A network administrator is configuring an AAA server to manage RADIUS authentication. Which two features are included in RADIUS authentication? (Choose two.)",
+        "options": [
+            "a) encryption for all communication",
+            "b) encryption for only the data",
+            "c) single process for authentication and authorization",
+            "d) separate processes for authentication and authorization",
+            "f) hidden passwords during transmission"
+        ],
+        "answer": [
+            "c",
+            "f"
+        ]
+    },
+        {
+        "question": "What is privilege escalation?",
+        "options": [
+            "a) Vulnerabilities in systems are exploited to grant higher levels of privilege than someone or some process should have.",
+            "b) Everyone is given full rights by default to everything and rights are taken away only when someone abuses privileges.",
+            "c) Someone is given rights because she or he has received a promotion.",
+            "d) A security problem occurs when high ranking corporate officials demand rights to systems or files that they should not have."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "What two assurances does digital signing provide about code that is downloaded from the Internet? (Choose two.)",
+        "options": [
+            "a) The code contains no viruses.",
+            "b) The code has not been modified since it left the software publisher.",
+            "c) The code is authentic and is actually sourced by the publisher.",
+            "d) The code contains no errors.",
+            "f) The code was encrypted with both a private and public key."
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+        {
+        "question": "An IT enterprise is recommending the use of PKI applications to securely exchange information between the employees. In which two cases might an organization use PKI applications to securely exchange information between users? (Choose two.)",
+        "options": [
+            "a) HTTPS web service",
+            "b) 802.1x authentication",
+            "c) local NTP server",
+            "d) FTP transfers",
+            "f) file and directory access permission"
+        ],
+        "answer": [
+            "a",
+            "b"
+        ]
+    },
+    {
+        "question": "Which measure can a security analyst take to perform effective security monitoring against network traffic encrypted by SSL technology?",
+        "options": [
+            "a) Use a Syslog server to capture network traffic.",
+            "b) Deploy a Cisco SSL Appliance.",
+            "c) Require remote access connections through IPsec VPN.",
+            "d) Deploy a Cisco ASA."
+        ],
+        "answer": [
+            "b"
         ]
     }
 ]
