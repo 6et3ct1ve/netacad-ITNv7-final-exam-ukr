@@ -1020,5 +1020,302 @@
         "answer": [
             "a"
         ]
+    },
+    {
+        "question": "Refer to the exhibit. If Host1 were to transfer a file to the server, what layers of the TCP/IP model would be used?",
+        "options": [
+            "a) only application and Internet layers",
+            "b) application, transport, Internet, and network access layers",
+            "c) only Internet and network access layers",
+            "d) only application, transport, network, data link, and physical layers",
+            "f) only application, Internet, and network access layers",
+            "g) application, session, transport, network, data link, and physical layers"
+        ],
+        "answer": [
+            "b"
+        ],
+        "image": "Sec_61.jpg"
+    },
+    {
+        "question": "A company has a file server that shares a folder named Public. The network security policy specifies that the Public folder is assigned Read-Only rights to anyone who can log into the server while the Edit rights are assigned only to the network admin group. Which component is addressed in the AAA network service framework?",
+        "options": [
+            "a) automation",
+            "b) authentication",
+            "c) authorization",
+            "d) accounting"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Match the destination network routing table entry type with a defintion.",
+        "matching": [
+            [
+                "found only in routers running IOS 15+ or IPv6 routing",
+                "local route interface"
+            ],
+            [
+                "automatically added when an interface is configured and active",
+                "directly connected interface"
+            ],
+            [
+                "added when a protocol such as OSPF or EIGRP discovers a route",
+                "dynamic route"
+            ],
+            [
+                "manually configured by a network administrator",
+                "static route"
+            ]
+        ],
+        "answers": [
+            "directly connected interface",
+            "dynamic route",
+            "local route interface",
+            "static route"
+        ],
+        "answer": [
+            2,
+            3,
+            1,
+            4
+        ]
+    },
+    {
+        "question": "A person coming to a cafe for the first time wants to gain wireless access to the Internet using a laptop. What is the first step the wireless client will do in order to communicate over the network using a wireless management frame?",
+        "options": [
+            "a) associate with the AP",
+            "b) authenticate to the AP",
+            "c) discover the AP",
+            "d) agree with the AP on the payload"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "A device has been assigned the IPv6 address of 2001:0db8:cafe:4500:1000:00d8:0058:00ab/64. Which is the network identifier of the device?",
+        "options": [
+            "a) 2001:0db8:cafe:4500:1000",
+            "b) 2001:0db8:cafe:4500:1000:00d8:0058:00ab",
+            "c) 1000:00d8:0058:00ab",
+            "d) 2001:0db8:cafe:4500",
+            "f) 2001"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "An administrator wants to create four subnetworks from the network address 192.168.1.0/24. What is the network address and subnet mask of the second useable subnet?",
+        "options": [
+            "a) subnetwork 192.168.1.64\nsubnet mask 255.255.255.192",
+            "b) subnetwork 192.168.1.64\nsubnet mask 255.255.255.240",
+            "c) subnetwork 192.168.1.32\nsubnet mask 255.255.255.240",
+            "d) subnetwork 192.168.1.128\nsubnet mask 255.255.255.192",
+            "f) subnetwork 192.168.1.8\nsubnet mask 255.255.255.224"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "What term describes a set of software tools designed to increase the privileges of a user or to grant access to the user to portions of the operating system that should not normally be allowed?",
+        "options": [
+            "a) compiler",
+            "b) rootkit",
+            "c) package manager",
+            "d) penetration testing"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "The IT security personnel of an organization notice that the web server deployed in the DMZ is frequently targeted by threat actors. The decision is made to implement a patch management system to manage the server. Which risk management strategy method is being used to respond to the identified risk?",
+        "options": [
+            "a) risk sharing",
+            "b) risk avoidance",
+            "c) risk reduction",
+            "d) risk retention"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What are three characteristics of an information security management system? (Choose three.)",
+        "options": [
+            "a) It involves the implementation of systems that track the location and configuration of networked devices and software across an enterprise.",
+            "b) It is a systematic and multilayered approach to cybersecurity.",
+            "c) It addresses the inventory and control of hardware and software configurations of systems.",
+            "d) It consists of a set of practices that are systematically applied to ensure continuous improvement in information security.",
+            "e) It consists of a management framework through which an organization identifies, analyzes, and addresses information security risks.",
+            "f) It is based on the application of servers and security devices."
+        ],
+        "answer": [
+            "b",
+            "d",
+            "e"
+        ]
+    },
+    {
+        "question": "Which three technologies should be included in a SOC security information and event management system? (Choose three.)",
+        "options": [
+            "a) event collection, correlation, and analysis",
+            "b) security monitoring",
+            "c) user authentication",
+            "d) proxy service",
+            "e) intrusion prevention",
+            "f) threat intelligence"
+        ],
+        "answer": [
+            "a",
+            "b",
+            "f"
+        ]
+    },
+    {
+        "question": "What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?",
+        "options": [
+            "a) http",
+            "b) www",
+            "c) .com",
+            "d) index"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What best describes the security threat of spoofing?",
+        "options": [
+            "a) sending bulk email to individuals, lists, or domains with the intention to prevent users from accessing email",
+            "b) sending abnormally large amounts of data to a remote server to prevent user access to the server services",
+            "c) intercepting traffic between two hosts or inserting false information into traffic between two hosts",
+            "d) making data appear to come from a source that is not the actual source"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "A newly created company has fifteen Windows 10 computers that need to be installed before the company can open for business. What is a best practice that the technician should implement when configuring the Windows Firewall?",
+        "options": [
+            "a) The technician should remove all default firewall rules and selectively deny traffic from reaching the company network.",
+            "b) After implementing third party security software for the company, the technician should verify that the Windows Firewall is disabled.",
+            "c) The technician should create instructions for corporate users on how to allow an app through the WIndows Firewall using the Administrator account.",
+            "d) The technician should enable the Windows Firewall for inbound traffic and install other firewall software for outbound traffic control."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Which statement defines the difference between session data and transaction data in logs?",
+        "options": [
+            "a) Session data analyzes network traffic and predicts network behavior, whereas transaction data records network sessions.",
+            "b) Session data is used to make predictions on network behaviors, whereas transaction data is used to detect network anomalies.",
+            "c) Session data records a conversation between hosts, whereas transaction data focuses on the result of network sessions.",
+            "d) Session data shows the result of a network session, whereas transaction data is in response to network threat traffic."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+     {
+        "question": "Match the network monitoring data type with the description.",
+        "matching": [
+            [
+                "includes device-specific server and host logs",
+                "transaction data"
+            ],
+            [
+                "generated by IPS or IDS devices when suspicious traffic is detected",
+                "alert data"
+            ],
+            [
+                "used to describe and analyze network flow or performance data",
+                "statistical data"
+            ],
+            [
+                "contains details of network flows including the 5-tuples, the amount of data transmitted, and the duration of data transmission",
+                "session data"
+            ]
+        ],
+        "answers": [
+            "statistical data",
+            "transaction data",
+            "session data",
+            "alert data"
+        ],
+        "answer": [
+            3,
+            1,
+            4,
+            2
+        ]
+    },
+    {
+        "question": "Which device supports the use of SPAN to enable monitoring of malicious activity?",
+        "options": [
+            "a) Cisco Catalyst switch",
+            "b) Cisco IronPort",
+            "c) Cisco NAC",
+            "d) Cisco Security Agent"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Which term is used for describing automated queries that are useful for adding efficiency to the cyberoperations workflow?",
+        "options": [
+            "a) cyber kill chain",
+            "b) playbook",
+            "c) chain of custody",
+            "d) rootkit"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "When ACLs are configured to block IP address spoofing and DoS flood attacks, which ICMP message should be allowed both inbound and outbound?",
+        "options": [
+            "a) echo reply",
+            "b) unreachable",
+            "c) source quench",
+            "d) echo"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "After a security monitoring tool identifies a malware attachment entering the network, what is the benefit of performing a retrospective analysis?",
+        "options": [
+            "a) It can identify how the malware originally entered the network.",
+            "b) A retrospective analysis can help in tracking the behavior of the malware from the identification point forward.",
+            "c) It can calculate the probability of a future incident.",
+            "d) It can determine which network host was first affected."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Which two data types would be classified as personally identifiable information (PII)? (Choose two.)",
+        "options": [
+            "a) house thermostat reading",
+            "b) average number of cattle per region",
+            "c) vehicle identification number",
+            "d) hospital emergency use per region",
+            "f) Facebook photographs"
+        ],
+        "answer": [
+            "c",
+            "f"
+        ]
     }
 ]
