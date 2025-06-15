@@ -459,5 +459,566 @@
         "answer": [
             "b"
         ]
+    },
+    {
+        "question": "An administrator is trying to develop a BYOD security policy for employees that are bringing a wide range of devices to connect to the company network. Which three objectives must the BYOD security policy address?\n(Choose three.)",
+        "options": [
+            "a) All devices must be insured against liability if used to compromise the corporate network.",
+            "b) All devices must have open authentication with the corporate network.",
+            "c) Rights and activities permitted on the corporate network must be defined.",
+            "d) Safeguards must be put in place for any personal device being compromised.",
+            "e) The level of access of employees when connecting to the corporate network must be defined.",
+            "f) All devices should be allowed to attach to the corporate network flawlessly."
+        ],
+        "answer": [
+            "c",
+            "d",
+            "e"
+        ]
+    },
+    {
+        "question": "Match the security policy with the description.\n(Not all options are used.)",
+        "matching": [
+            [
+                "identifies network applications and uses that are acceptable to the organization",
+                "acceptable use policy (AUP)"
+            ],
+            [
+                "ensures that passwords meet minimum requirements and are changed regularly"
+            ],
+            [
+                "specifies authorized persons that can have access to network resources and identity verification procedures",
+                "identification and authentication policy"
+            ],
+            [
+                "specifies network device operating system and end user application update procedures",
+                "network maintenance policy"
+            ],
+            [
+                "identifies how remote users can access a network and what is accessible via remote connectivity",
+                "remote access policy"
+            ]
+        ],
+        "answers": [
+            "identification and authentication policy",
+            "acceptable use policy (AUP)",
+            "remote access policy",
+            "network maintenance policy"
+        ],
+        "answer": [
+            3,
+            1,
+            5,
+            4
+        ]
+    },
+    {
+        "question": "Match the attack to the definition.\n(Not all options are used.)",
+        "matching": [
+            [
+                "domain generation"
+            ],
+            [
+                "resource utilization attack",
+                "attacker sends multiple packets that consume server resources"
+            ],
+            [
+                "ARP cache poisoning",
+                "attacker sends falsied information to redirect users to malicious sites"
+            ],
+            [
+                "amplification and reflection",
+                "attacker uses open resolvers to increase the volume of attacks and mask the true source of the attack"
+            ]
+        ],
+        "answers": [
+            "attacker sends falsied information to redirect users to malicious sites",
+            "attacker uses open resolvers to increase the volume of attacks and mask the true source of the attack",
+            "attacker sends multiple packets that consume server resources"
+        ],
+        "answer": [
+            3,
+            4,
+            2
+        ]
+    },
+    {
+        "question": "What type of attack targets an SQL database using the input field of a user?",
+        "options":
+        [
+            "a) XML injection",
+            "b) buffer overflow",
+            "c) Cross-site scripting",
+            "d) SQL injection"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "What are two characteristics of Ethernet MAC addresses?\n(Choose two.)",
+        "options": 
+        [
+            "a) MAC addresses use a flexible hierarchical structure.",
+            "b) They are expressed as 12 hexadecimal digits.",
+            "c) They are globally unique.",
+            "d) They are routable on the Internet.",
+            "e) MAC addresses must be unique for both Ethernet and serial interfaces on a device."
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+    {
+        "question": "A user calls to report that a PC cannot access the internet. The network technician asks the user to issue the command ping 127.0.0.1 in a command prompt window. The user reports that the result is four positive replies. What conclusion can be drawn based on this connectivity test?",
+        "options":
+        [
+            "a) The IP address obtained from the DHCP server is correct.",
+            "b) The PC can access the network. The problem exists beyond the local network.",
+            "c) The PC can access the Internet. However, the web browser may not work.",
+            "d) The TCP/IP implementation is functional."
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "What characterizes a threat actor?",
+        "options": 
+        [
+            "a) They are all highly-skilled individuals.",
+            "b) They always use advanced tools to launch attacks.",
+            "c) They always try to cause some harm to an individual or organization.",
+            "d) They all belong to organized crime."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "A computer is presenting a user with a screen requesting payment before the user data is allowed to be accessed by the same user. What type of malware is this?",
+        "options": 
+        [
+            "a) a type of logic bomb",
+            "b) a type of virus",
+            "c) a type of worm",
+            "d) a type of ransomware"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Which ICMPv6 message type provides network addressing information to hosts that use SLAAC?",
+        "options": 
+        [
+            "a) router solicitation",
+            "b) neighbor advertisement",
+            "c) neighbor solicitation",
+            "d) router advertisement"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Which tol included in the Security Onion is a series of software plugins that send different types of data to the Elasticsearch data stores?",
+        "options": 
+        [
+            "a) Curator",
+            "b) Beats",
+            "c) OSSEC",
+            "d) ElastAlert"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Which two types of unreadable network traffic could be eliminated from data collected by NSM?\n(Choose two.)",
+        "options": 
+        [
+            "a) STP traffic",
+            "b) IPsec traffic",
+            "c) routing updates traffic",
+            "d) SSL traffic",
+            "e) broadcast traffic"
+        ],
+        "answer": [
+            "b",
+            "d"
+        ]
+    },
+    {
+        "question": "Which core open source component of the Elastic-stack is responsible for accepting the data in its native format and making elements of the data consistent across all sources?",
+        "options": 
+        [
+            "a) Logstash",
+            "b) Kibana",
+            "c) Beats",
+            "d) Elasticsearch"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Match the security incident stakeholder with the role.",
+        "matching": [
+            [
+                "performs disciolinary measures",
+                "human resources"
+            ],
+            [
+                "changes firewall rules",
+                "information assurance"
+            ],
+            [
+                "preserves attack evidence",
+                "IT support"
+            ],
+            [
+                "designs the budget",
+                "management"
+            ],
+            [
+                "reviews policies for local or federal guideline violations",
+                "legal department"
+            ]
+        ],
+        "answers": [
+            "management",
+            "IT support",
+            "legal department",
+            "human resources",
+            "information assurance"
+        ],
+        "answer": [
+            4,
+            3,
+            5,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "In the NIST incident response process life cycle, which type of attack vector involves the use of brute force against devices, networks, or services?",
+        "options": 
+        [
+            "a) media",
+            "b) impersonation",
+            "c) attrition",
+            "d) loss or theft"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Match the security organization with its security functions.\n(Not all options are used.)",
+        "matching": [
+            [
+                "It maintains and supports the Internet Storm Cemter and also develops security courses.",
+                "SANS"
+            ],
+            [
+                "It maintains a list of common vulnerabilities and exposures (CVE).",
+                "MITRE"
+            ],
+            [
+                "It provides vendor neureal educational products and career services to industry professionals globally."
+            ],
+            [
+                "It brings together a variety of computer securyty incident respose teams from goverment, commercial, and educational organizations to foster cooperation in information sharing, incident prevention and rapid reaction.",
+                "FIRST"
+            ]
+        ],
+        "answers": [
+            "SANS",
+            "MITRE",
+            "FIRST"
+        ],
+        "answer": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "What is a characteristic of CybOX?",
+        "options": 
+        [
+            "a) It is a set of standardized schemata for specifying, capturing, characterizing, and communicating events and properties of network operations.",
+            "b) It enables the real-time exchange of cyberthreat indicators between the U.S. Federal Government and the private sector.",
+            "c) It is a set of specifications for exchanging cyberthreat information between organizations.",
+            "d) It is the specification for an application layer protocol that allows the communication of CTI over HTTPS."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "After host A receives a web page from server B, host A terminates the connection with server B. Match each step to its correct option in the normal termination process for a TCP connection.\n(Not all options are used.)",
+        "matching": [
+            [
+                "Host A sends an ACK to server B.",
+                "Step 4"
+            ],
+            [
+                "Server B sends a FIN to host A.",
+                "Step 3"
+            ],
+            [
+                "Host A sends a FIN to server B.",
+                "Step 1"
+            ],
+            [
+                "Server B sends a SYN-ACK to host A."
+            ],
+            [
+                "Server B sends an ACK to host A.",
+                "Step 2"
+            ]
+        ],
+        "answers": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4"
+        ],
+        "answer": [
+            3,
+            5,
+            2,
+            1
+        ]
+    },
+    {
+        "question": "What are two ways that ICMP can be a security threat to a company?\n(Choose two.)",
+        "options": 
+        [
+            "a) by collecting information about a network",
+            "b) by corrupting data between email servers and email recipients",
+            "c) by the infiltration of web pages",
+            "d) by corrupting network IP data packets",
+            "e) by providing a conduit for DoS attacks"
+        ],
+        "answer": [
+            "a",
+            "e"
+        ]
+    },
+    {
+        "question": "Which three IPv4 header fields have no equivalent in an IPv6 header?\n(Choose three.)",
+        "options": [
+            "a) fragment offset",
+            "b) protocol",
+            "c) flag",
+            "d) TTL",
+            "e) identification",
+            "f) version"
+        ],
+        "answer": [
+            "a",
+            "c",
+            "e"
+        ]
+    },
+    {
+        "question": "Which two net commands are associated with network resource sharing?\n(Choose two.)",
+        "options": [
+            "a) net start",
+            "b) net accounts",
+            "c) net share",
+            "d) net use",
+            "e) net stop"
+        ],
+        "answer": [
+            "c",
+            "d"
+        ]
+    },
+    {
+        "question": "Match the Windows 10 Registry key with its description.",
+        "matching": [
+            [
+                "all of the configuration settings for the hardware and software configured on the computer for all users",
+                "HKEY_USERS"
+            ],
+            [
+                "settings about the file system, file associations, shortcuts used when you ask Windows to run a file, or view a directory",
+                "HKEY_CLASSES_ROOT"
+            ],
+            [
+                "data about the preferences of the currently logged on user, including personalizatiin settings, default devices, and programs, etc",
+                "HKEY_CURRENT_USER"
+            ],
+            [
+                "information about the current hardware profile of the machine",
+                "HKEY_CURRENT_CONFIG"
+            ]
+        ],
+        "answers": [
+            "HKEY_CURRENT_USER",
+            "HKEY_CLASSES_ROOT",
+            "HKEY_USERS",
+            "HKEY_CURRENT_CONFIG"
+        ],
+        "answer": [
+            3,
+            2,
+            1,
+            4
+        ]
+    },
+    {
+        "question": "Which PDU format is used when bits are received from the network medium by the NIC of a host?",
+        "options": [
+            "a) segment",
+            "b) file",
+            "c) packet",
+            "d) frame"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?",
+        "options": [
+            "a) when the router receives an ICMP Time Exceeded message",
+            "b) when the values of both the Echo Request and Echo Reply messages reach zero",
+            "c) when the RTT value reaches zero",
+            "d) when the value in the TTL field reaches zero",
+            "e) when the host responds with an ICMP Echo Reply message"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Refer to the exhibit. What solution can provide a VPN between site A and site B to support encapsulation of any Layer 3 protocol between the internal networks at each site?",
+        "options": [
+            "a) an IPsec tunnel",
+            "b) Cisco SSL VPN",
+            "c) a GRE tunnel",
+            "d) a remote access tunnel"
+        ],
+        "answer": [
+            "c"
+        ],
+        "image": "Sec_54.jpg"
+    },
+    {
+        "question": "For what purpose would a network administrator use the Nmap tool?",
+        "options": [
+            "a) protection of the private IP addresses of internal hosts",
+            "b) identification of specific network anomalies",
+            "c) collection and analysis of security alerts and logs",
+            "d) detection and identification of open ports"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Match the network service with the description",
+        "matching": [
+            [
+                "Provides statistics on packets flowing through",
+                "NetFlow"
+            ],
+            [
+                "Notifies the administrator with detailed system messages",
+                "syslog"
+            ],
+            [
+                "Allows administrators to manage network nodes",
+                "SNMP"
+            ],
+            [
+                "Synchronizes the time across all devices on the network",
+                "NTP"
+            ]
+        ],
+        "answers": [
+            "SNMP",
+            "NetFlow",
+            "NTP",
+            "syslog"
+        ],
+        "answer": [
+            3,
+            1,
+            4,
+            2
+        ]
+    },
+    {
+        "question": "Match the attack surface with attack exploits.",
+        "matching": [
+            [
+                "These attacks are delivered through exploitation of vulberabilities in web, cloud, or host-based software applications.",
+                "Software Attack Surface"
+            ],
+            [
+                "These attacks include conventional wired and wireless network protocols, as well as other wireless protocols used by smartphones or IoT devices. The attacks target vulnerabilities at the transport layer.",
+                "Network Attack Surface"
+            ],
+            [
+                "These attacks include social engineering, malicious behavior by trusted insiders, and user error.",
+                "Human Attack Surface"
+            ]
+        ],
+        "answers": [
+            "Network Attack Surface",
+            "Software Attack Surface",
+            "Human Attack Surface"
+        ],
+        "answer": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Match the Linux host-based firewall application with its description.",
+        "matching": [
+            [
+                "This is a rule-based access control and logging system for Linux Packet filtering based on IP addresses and network services.",
+                "TCP Wrappers"
+            ],
+            [
+                "This is an application that allows Linux system administrators to configure network access rules that are part of the Linux kernel Netgilter modules.",
+                "iptables"
+            ],
+            [
+                "This application uses a simple virtual machine in the Linux kernel where code os executed and network packets are inspected.",
+                "nftables"
+            ]
+        ],
+        "answers": [
+            "iptables",
+            "nftables",
+            "TCP Wrappers"
+        ],
+        "answer": [
+            2,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "What network attack seeks to create a DoS for clients by preventing them from being able to obtain a DHCP lease?",
+        "options": [
+            "a) DHCP starvation",
+            "b) IP address spoofing",
+            "c) DHCP spoofing",
+            "d) CAM table attack"
+        ],
+        "answer": [
+            "a"
+        ]
     }
 ]
