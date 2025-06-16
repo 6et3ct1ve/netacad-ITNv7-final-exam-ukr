@@ -1109,11 +1109,11 @@
     {
         "question": "An administrator wants to create four subnetworks from the network address 192.168.1.0/24. What is the network address and subnet mask of the second useable subnet?",
         "options": [
-            "a) subnetwork 192.168.1.64\nsubnet mask 255.255.255.192",
-            "b) subnetwork 192.168.1.64\nsubnet mask 255.255.255.240",
-            "c) subnetwork 192.168.1.32\nsubnet mask 255.255.255.240",
-            "d) subnetwork 192.168.1.128\nsubnet mask 255.255.255.192",
-            "f) subnetwork 192.168.1.8\nsubnet mask 255.255.255.224"
+            "a) subnetwork 192.168.1.64\n\tsubnet mask 255.255.255.192",
+            "b) subnetwork 192.168.1.64\n\tsubnet mask 255.255.255.240",
+            "c) subnetwork 192.168.1.32\n\tsubnet mask 255.255.255.240",
+            "d) subnetwork 192.168.1.128\n\tsubnet mask 255.255.255.192",
+            "f) subnetwork 192.168.1.8\n\tsubnet mask 255.255.255.224"
         ],
         "answer": [
             "a"
@@ -1160,7 +1160,7 @@
         ]
     },
     {
-        "question": "Which three technologies should be included in a SOC security information and event management system? (Choose three.)",
+        "question": "Which three technologies should be included in a SOC security information and event management system?\n(Choose three.)",
         "options": [
             "a) event collection, correlation, and analysis",
             "b) security monitoring",
@@ -1305,7 +1305,7 @@
         ]
     },
     {
-        "question": "Which two data types would be classified as personally identifiable information (PII)? (Choose two.)",
+        "question": "Which two data types would be classified as personally identifiable information (PII)?\n(Choose two.)",
         "options": [
             "a) house thermostat reading",
             "b) average number of cattle per region",
@@ -1316,6 +1316,325 @@
         "answer": [
             "c",
             "f"
+        ]
+    },
+    {
+        "question": "A help desk technician notices an increased number of calls relating to the performance of computers located at the manufacturing plant. The technician believes that botnets are causing the issue. What are two purposes of botnets?\n(Choose two.)",
+        "options": [
+
+            "a) to transmit viruses or spam to computers on the same network",
+            "b) to record any and all keystrokes",
+            "c) to attack other computers",
+            "d) to withhold access to a computer or files until money has been paid",
+            "e) to gain access to the restricted part of the operating system"
+        ],
+        "answer": [
+            "a",
+            "c"
+        ]
+    },
+    {
+        "question": "Which two statements describe the use of asymmetric algorithms?\n(Choose two.)",
+        "options": [
+            "a) Public and private keys may be used interchangeably.",
+            "b) If a public key is used to encrypt the data, a private key must be used to decrypt the data.",
+            "c) If a public key is used to encrypt the data, a public key must be used to decrypt the data.",
+            "d) If a private key is used to encrypt the data, a public key must be used to decrypt the data.",
+            "e) If a private key is used to encrypt the data, a private key must be used to decrypt the data."
+        ],
+        "answer": [
+            "b",
+            "d"
+        ]
+    },
+    {
+        "question": "Which three security services are provided by digital signatures?\n(Choose three.)",
+        "options": [
+            "a) provides nonrepudiation using HMAC functions",
+            "b) guarantees data has not changed in transit",
+            "c) provides data encryption",
+            "d) authenticates the source",
+            "e) provides confidentiality of digitally signed data",
+            "f) authenticates the destination"
+        ],
+        "answer": [
+            "b",
+            "c",
+            "d"
+        ]
+    },
+    {
+        "question": "What are two methods to maintain certificate revocation status?\n(Choose two.)",
+        "options": [
+            "a) CRL",
+            "b) DNS",
+            "c) subordinate CA",
+            "d) OCSP",
+            "e) LDAP"
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+    {
+        "question": "What are two uses of an access control list?\n(Choose two.)",
+        "options": [
+            "a) ACLs provide a basic level of security for network access.",
+            "b) ACLs can control which areas a host can access on a network.",
+            "c) Standard ACLs can restrict access to specific applications and ports.",
+            "d) ACLs assist the router in determining the best path to a destination.",
+            "e) ACLs can permit or deny traffic based upon the MAC address originating on the router."
+        ],
+        "answer": [
+            "a",
+            "b"
+        ]
+    },
+    {
+        "question": "A client is using SLAAC to obtain an IPv6 address for the interface. After an address has been generated and applied to the interface, what must the client do before it can begin to use this IPv6 address?",
+        "options": [
+            "a) It must send an ICMPv6 Router Solicitation message to determine what default gateway it should use.",
+            "b) It must send an ICMPv6 Router Solicitation message to request the address of the DNS server.",
+            "c) It must send an ICMPv6 Neighbor Solicitation message to ensure that the address is not already in use on the network.",
+            "d) It must wait for an ICMPv6 Router Advertisement message giving permission to use this address."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "A technician is troubleshooting a network connectivity problem. Pings to the local wireless router are successful but pings to a server on the Internet are unsuccessful. Which CLI command could assist the technician to find the location of the networking problem?",
+        "options": [
+            "a) tracert",
+            "b) ipconfig",
+            "c) msconfig",
+            "d) ipconfig/renew"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "What are two evasion techniques that are used by hackers?\n(Choose two.)",
+        "options": [
+            "a) Trojan horse",
+            "b) pivot",
+            "c) rootkit",
+            "d) reconnaissance",
+            "e) phishing"
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+    {
+        "question": "When a security attack has occurred, which two approaches should security professionals take to mitigate a compromised system during the Actions on Objectives step as defined by the Cyber Kill Chain model?\n(Choose two.)",
+        "options": [
+            "a) Perform forensic analysis of endpoints for rapid triage.",
+            "b) Train web developers for securing code.",
+            "c) Build detections for the behavior of known malware.",
+            "d) Collect malware files and metadata for future analysis.",
+            "e) Detect data exfiltration, lateral movement, and unauthorized credential usage."
+        ],
+        "answer": [
+            "a",
+            "e"
+        ]
+    },
+    {
+        "question": "Place the seven steps defined in the Cyber Kill Chain in the correct order.",
+        "matching": [
+            [
+                "Step 1",
+                "reconnaissance"
+            ],
+            [
+                "Step 2",
+                "weaponization"
+            ],
+            [
+                "Step 3",
+                "delivery"
+            ],
+            [
+                "Step 4",
+                "exploitation"
+            ],
+            [
+                "Step 5",
+                "installation"
+            ],
+            [
+                "Step 6",
+                "command and control"
+            ],
+            [
+                "Step 7",
+                "action on pbjectives"
+            ]
+        ],
+        "answers": [
+            "delivery",
+            "installation",
+            "exploitation",
+            "weaponization",
+            "reconnaissance",
+            "action on objectives",
+            "command and control"
+        ],
+        "answer": [
+            3,
+            5,
+            4,
+            2,
+            1,
+            7,
+            6
+        ]
+    },
+    {
+        "question": "Which field in the TCP header indicates the status of the three-way handshake process?",
+        "options": [
+            "a) control bits",
+            "b) window",
+            "c) reserved",
+            "d) checksum"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "A user opens three browsers on the same PC to access www.cisco.com to search for certification course information. The Cisco web server sends a datagram as a reply to the request from one of the web browsers. Which information is used by the TCP/IP protocol stack in the PC to identify which of the three web browsers should receive the reply?",
+        "options": [
+            "a) the source IP address",
+            "b) the destination port number",
+            "c) the destination IP address",
+            "d) the source port number"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What are two scenarios where probabilistic security analysis is best suited?\n(Choose two.)",
+        "options": [
+            "a) when applications that conform to application/networking standards are analyzed",
+            "b) when random variables create difficulty in knowing with certainty the outcome of any given event",
+            "c) when each event is the inevitable result of antecedent causes",
+            "d) when analyzing applications designed to circumvent firewalls",
+            "e) when analyzing events with the assumption that they follow predefined steps"
+        ],
+        "answer": [
+            "b",
+            "d"
+        ]
+    },
+    {
+        "question": "Which tool is a web application that provides the cybersecurity analyst an easy-to-read means of viewing an entire Layer 4 session?",
+        "options": [
+            "a) Snort",
+            "b) Zeek",
+            "c) CapME",
+            "d) OSSEC"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Match the category of attacks with the description.\n(Not all options are used.)",
+        "matching": [
+            [
+                "It can crash applications or network services. It can also flood a computer or the entire network with traffic until a shutdown occurs because of the overload.",
+                "DoS"
+            ],
+            [
+                "It constructs an IP packet that appears to originate from a valid address inside a compare network."
+            ],
+            [
+                "It occurs when threat actors have positioned themselves between a source and a destination and can actively monitor, capture, and control the communication thansparently.",
+                "MiTM"
+            ],
+            [
+                "It uses an applicatio or device that can read, monitor, and capture network data exchanges and read network packets.",
+                "sniffer attack"
+            ]
+        ],
+        "answers": [
+            "sniffer attack",
+            "MiTM",
+            "Dos"
+        ],
+        "answer": [
+            4,
+            3,
+            1
+        ]
+    },
+    {
+        "question": "What are two characteristics of the SLAAC method for IPv6 address configuration?\n(Choose two.)",
+        "options": [
+            "a) The default gateway of an IPv6 client on a LAN will be the link-local address of the router interface attached to the LAN.",
+            "b) This stateful method of acquiring an IPv6 address requires at least one DHCPv6 server.",
+            "c) Clients send router advertisement messages to routers to request IPv6 addressing.",
+            "d) IPv6 addressing is dynamically assigned to clients through the use of ICMPv6.",
+            "e) Router solicitation messages are sent by the router to offer IPv6 addressing to clients."
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+    {
+        "question": "A technician notices that an application is not responding to commands and that the computer seems to respond slowly when applications are opened. What is the best administrative tool to force the release of system resources from the unresponsive application?",
+        "options": [
+            "a) Event Viewer",
+            "b) System Restore",
+            "c) Add or Remove Programs",
+            "d) Task Manager"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "How can statistical data be used to describe or predict network behavior?",
+        "options": [
+            "a) by comparing normal network behavior to current network behavior",
+            "b) by recording conversations between network endpoints",
+            "c) by listing results of user web surfing activities",
+            "d) by displaying alert messages that are generated by Snort"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Which metric in the CVSS Base Metric Group is used with an attack vector?",
+        "options": [
+            "a) the proximity of the threat actor to the vulnerability",
+            "b) the presence or absence of the requirement for user interaction in order for an exploit to be successful",
+            "c) the determination whether the initial authority changes to a second authority during the exploit",
+            "d) the number of components, software, hardware, or networks, that are beyond the control of the attacker and that must be present in order for a vulnerability to be successfully exploited"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Which NIST Cybersecurity Framework core function is concerned with the development and implementation of safeguards that ensure the delivery of critical infrastructure services?",
+        "options": [
+            "a) respond",
+            "b) detect",
+            "c) identify",
+            "d) recover",
+            "e) protect"
+        ],
+        "answer": [
+            "e"
         ]
     }
 ]
