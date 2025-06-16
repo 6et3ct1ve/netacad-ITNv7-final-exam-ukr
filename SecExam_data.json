@@ -2552,5 +2552,134 @@
         "answer": [
             "c"
         ]
+    },
+    {
+        "question": "Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?",
+        "options": [
+            "a) It is easier to use than other server operating systems.",
+            "b) It can be acquired at no charge.",
+            "c) More network applications are created for this environment.",
+            "d)     The administrator has control over specific security functions, but not standard applications."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "A technician needs to verify file permissions on a specific Linux file. Which command would the technician use?",
+        "options": [
+            "a) cd",
+            "b) sudo",
+            "c) ls -l",
+            "d) vi"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which two protocols may devices use in the application process that sends email?\n(Choose two.)",
+        "options": [
+            "a) HTTP",
+            "b) POP",
+            "c) POP3",
+            "d) DNS",
+            "e) IMAP",
+            "f) SMTP"
+        ],
+        "answer": [
+            "d",
+            "f"
+        ]
+    },
+    {
+        "question": "Which file system type was specifically created for optical disk media?",
+        "options": [
+            "a) ext3",
+            "b) HFS+",
+            "c) CDFS",
+            "d) ext2"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "A piece of malware has gained access to a workstation and issued a DNS lookup query to a CnC server. What is the purpose of this attack?",
+        "options": [
+            "a) to check the domain name of the workstation",
+            "b) to send stolen sensitive data with encoding",
+            "c) to masquerade the IP address of the workstation",
+            "d) to request a change of the IP address"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Refer to the exhibit. Which field in the Sguil event window indicates the number of times an event is detected for the same source and destination IP address?",
+        "options": [
+            "a) CNT",
+            "b) Pr",
+            "c) ST",
+            "d) AlertID"
+        ],
+        "answer": [
+            "a"
+        ],
+        "image": "Sec_166.jpg"
+    },
+    {
+        "question": "Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?",
+        "options": [
+            "a) R1: G0/0",
+            "b) R2: S0/0/0",
+            "c) R2: S0/0/1",
+            "d) R1: S0/0/0"
+        ],
+        "answer": [
+            "a"
+        ],
+        "image": "Sec_167.jpg"
+    },
+    {
+        "question": "According to information outlined by the Cyber Kill Chain, which two approaches can help identify reconnaissance threats?\n(Choose two.)",
+        "options": [
+            "a) Analyze web log alerts and historical search data.",
+            "b) Audit endpoints to forensically determine origin of exploit.",
+            "c) Build playbooks for detecting browser behavior.",
+            "d) Conduct full malware analysis.",
+            "e) Understand targeted servers, people, and data available to attack."
+        ],
+        "answer": [
+            "a",
+            "c"
+        ]
+    },
+    {
+        "question": "Which two ICMPv6 messages are used during the Ethernet MAC address resolution process?\n(Choose two.)",
+        "options": [
+            "a) router solicitation",
+            "b) router advertisement",
+            "c) neighbor solicitation",
+            "d) neighbor advertisement",
+            "e) echo request"
+        ],
+        "answer": [
+            "c",
+            "d"
+        ]
+    },
+    {
+        "question": "What best describes the destination IPv4 address that is used by multicasting?",
+        "options": [
+            "a) a single IP multicast address that is used by all destinations in a group",
+            "b) an IP address that is unique for each destination in the group",
+            "c) a group address that shares the last 23 bits with the source IPv4 address",
+            "d) a 48 bit address that is determined by the number of members in the multicast group"
+        ],
+        "answer": [
+            "a"
+        ]
     }
 ]
