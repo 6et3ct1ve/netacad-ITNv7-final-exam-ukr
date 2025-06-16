@@ -1636,5 +1636,402 @@
         "answer": [
             "e"
         ]
+    },
+    {
+        "question": "Which two techniques are used in a smurf attack? (Choose two.)",
+        "options": [
+            "a) session hijacking",
+            "b) resource exhaustion",
+            "c) botnets",
+            "d) amplification",
+            "e) reflection"
+        ],
+        "answer": [
+            "d",
+            "e"
+        ]
+    },
+        {
+        "question": "What is the primary objective of a threat intelligence platform (TIP)?",
+        "options": [
+            "a) o aggregate the data in one place and present it in a comprehensible and usable format",
+            "b) to provide a specification for an application layer protocol that allows the communication of CTI over HTTPS",
+            "c) to provide a standardized schema for specifying, capturing, characterizing, and communicating events and properties of network operations",
+            "d) to provide a security operations platform that integrates and enhances diverse security tools and threat intelligence"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Which wireless parameter is used by an access point to broadcast frames that include the SSID?",
+        "options": [
+            "a) security mode",
+            "b) active mode",
+            "c) passive mode",
+            "d) channel setting"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Match the field in the Event table of Sguil to the description.",
+        "matching": [
+            [
+                "the unique ID of the sensor",
+                "sid"
+            ],
+            [
+                "IP protocol type of the packet",
+                "ip_proto"
+            ],
+            [
+                "the human readable name of the event",
+                "signature"
+            ],
+            [
+                "the unique event number from the sensor",
+                "cid"
+            ],
+            [
+                "the time the event occurred on the sensor",
+                "timestamp"
+            ],
+            [
+                "the Sguil classification assigned to this event",
+                "status"
+            ]
+        ],
+        "answers": [
+            "cid",
+            "sid",
+            "status",
+            "ip_proto",
+            "signature",
+            "timestamp"
+        ],
+        "answer": [
+            4,
+            1,
+            6,
+            2,
+            3,
+            5
+        ]
+    },
+    {
+        "question": "An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?",
+        "options": [
+            "a) rogue access point",
+            "b) cracking",
+            "c) denial of service",
+            "d) spoofing"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+        {
+        "question": "What information is required for a WHOIS query?",
+        "options": [
+            "a) outside global address of the client",
+            "b) ICANN lookup server address",
+            "c) link-local address of the domain owner",
+            "d) FQDN of the domain"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Which two statements describe the characteristics of symmetric algorithms?\n(Choose two.)",
+        "options": [
+            "a) They are referred to as a pre-shared key or secret key.",
+            "b) They use a pair of a public key and a private key.",
+            "c) They are commonly used with VPN traffic.",
+            "d) They provide confidentiality, integrity, and availability."
+        ],
+        "answer": [
+            "a",
+            "c"
+        ]
+    },
+    {
+        "question": "What are two drawbacks to using HIPS?\n(Choose two.)",
+        "options": [
+            "a) With HIPS, the success or failure of an attack cannot be readily determined.",
+            "b) With HIPS, the network administrator must verify support for all the different operating systems used in the network.",
+            "c) HIPS has difficulty constructing an accurate network picture or coordinating events that occur across the entire network.",
+            "d) If the network traffic stream is encrypted, HIPS is unable to access unencrypted forms of the traffic.",
+            "e) HIPS installations are vulnerable to fragmentation attacks or variable TTL attacks"
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+        {
+        "question": "What are three functions provided by the syslog service?\n(Choose three.)",
+        "options": [
+            "a) to select the type of logging information that is captured",
+            "b) to periodically poll agents for data",
+            "c) to provide statistics on packets that are flowing through a Cisco device",
+            "d) to provide traffic analysis",
+            "e) to gather logging information for monitoring and troubleshooting",
+            "f) to specify the destinations of captured messages"
+        ],
+        "answer": [
+            "a",
+            "e",
+            "f"
+        ]
+    },
+    {
+        "question": "Which consideration is important when implementing syslog in a network?",
+        "options": [
+            "a) Enable the highest level of syslog available to ensure logging of all possible event messages.",
+            "b) Synchronize clocks on all network devices with a protocol such as Network Time Protocol.",
+            "c) Log all messages to the system buffer so that they can be displayed when accessing the router.",
+            "d) Use SSH to access syslog information"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What are the two ways threat actors use NTP?\n(Choose two.)",
+        "options": [
+            "a) They place an attachment inside an email message.",
+            "b) They attack the NTP infrastructure in order to corrupt the information used to log the attack.",
+            "c) They place iFrames on a frequently used corporate web page.",
+            "d) They encode stolen data as the subdomain portion where the nameserver is under control of an attacker.",
+            "e) Threat actors use NTP systems to direct DDoS attacks."
+        ],
+        "answer": [
+            "b",
+            "e"
+        ]
+    },
+    {
+        "question": "Which two features are included by both TACACS+ and RADIUS protocols? (Choose two.)",
+        "options": [
+            "a) password encryption",
+            "b) separate authentication and authorization processes",
+            "c) SIP support",
+            "d) utilization of transport layer protocols",
+            "e) 802.1X support"
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+     {
+        "question": "Match the SIEM function to the description.",
+        "matching": [
+            [
+                "reduces the volume of event data by consolidating duplicate event records",
+                "aggregation"
+            ],
+            [
+                "presents event data in real-time monitoring and long-time summaries",
+                "reporting"
+            ],
+            [
+                "speeds detection of and reaction to security threats by examining logs and events from different systems",
+                "correlation"
+            ],
+            [
+                "searches logs and events from sources throughout the organization for complete information analysis",
+                "forensic analysis"
+            ]
+        ],
+        "answers": [
+            "forensic analysis",
+            "correlation",
+            "aggregation",
+            "reporting"
+        ],
+        "answer": [
+            4,
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "What are two types of attacks used on DNS open resolvers?\n(Choose two.)",
+        "options": [
+            "a) amplification and reflection",
+            "b) fast flux",
+            "c) ARP poisoning",
+            "d) resource utilization",
+            "e) cushioning"
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+    {
+        "question": "What are three goals of a port scan attack?\n(Choose three.)",
+        "options": [
+            "a) to identify peripheral configurations",
+            "b) to determine potential vulnerabilities",
+            "c) to disable used ports and services",
+            "d) to identify operating systems",
+            "e) to identify active services",
+            "f) to discover system passwords"
+        ],
+        "answer": [
+            "b",
+            "d",
+            "e"
+        ]
+    },
+    {
+        "question": "Which protocol or service uses UDP for a client-to-server communication and TCP for server-to-server communication?",
+        "options": [
+            "a) HTTP",
+            "b) FTP",
+            "c) DNS",
+            "d) SMTP"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "options": [
+            "a) ",
+            "b) ",
+            "c) ",
+            "d) "
+        ],
+        "answer": [
+            ""
+        ]
     }
 ]
