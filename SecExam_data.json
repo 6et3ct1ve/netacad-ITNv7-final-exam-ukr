@@ -959,7 +959,7 @@
         "question": "Match the attack surface with attack exploits.",
         "matching": [
             [
-                "These attacks are delivered through exploitation of vulberabilities in web, cloud, or host-based software applications.",
+                "These attacks are delivered through exploitation of vulnerabilities in web, cloud, or host-based software applications.",
                 "Software Attack Surface"
             ],
             [
@@ -2680,6 +2680,468 @@
         ],
         "answer": [
             "a"
+        ]
+    },
+    {
+        "question": "What is the result of using security devices that include HTTPS decryption and inspection services?",
+        "options": [
+            "a) The devices require continuous monitoring and fine tuning.",
+            "b) The devices introduce processing delays and privacy issues.",
+            "c) The devices must have preconfigured usernames and passwords for all users.",
+            "d) Monthly service contracts with reputable web filtering sites can be costly."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What is a disadvantage of DDNS?",
+        "options": [
+            "a) DDNS is considered malignant and must be monitored by security software.",
+            "b) DDNS is unable to co-exist on a network subdomain that also uses DNS.",
+            "c) Using free DDNS services, threat actors can quickly and easily generate subdomains and change DNS records.",
+            "d) Using DDNS, a change in an existing IP address mapping can take over 24 hours and could result in a disruption of connectivity."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Match the network-based antimalware solution to the function.\n(Not all options are used.)",
+        "matching": [
+            [
+                "provides filtering of SPAM and potentially malicious emails before they reach the endpoint",
+                "email security appliance"
+            ],
+            [
+                "provides filtering of websites and blacklisting before they reach the endpoint",
+                "web security appliance"
+            ],
+            [
+                "permits only authorized and compliant systems to connect to the network",
+                "network admission control"
+            ],
+            [
+                "provides dynamic IP addresses to authenticated endpoints"
+            ],
+            [
+                "provides endpoint protection from viruses and malware",
+                "advanced malware protection"
+            ]
+        ],
+        "answers": [
+            "web security appliance",
+            "email security appliance",
+            "network admission control",
+            "advanced malware protection"
+        ],
+        "answer": [
+            2,
+            1,
+            3,
+            5
+        ]
+    },
+    {
+        "question": "A threat actor has identified the potential vulnerability of the web server of an organization and is building an attack. What will the threat actor possibly do to build an attack weapon?",
+        "options": [
+            "a) Obtain an automated tool in order to deliver the malware payload through the vulnerability.",
+            "b) Install a webshell on the web server for persistent access.",
+            "c) Create a point of persistence by adding services.",
+            "d) Collect credentials of the web server developers and administrators."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Which tool included in the Security Onion is a series of software plugins that send different types of data to the Elasticsearch data stores?",
+        "options": [
+            "a) OSSEC",
+            "b) Curator",
+            "c) Beats",
+            "d) ElastAlert"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which term is used to describe the process of identifying the NSM-related data to be gathered?",
+        "options": [
+            "a) data archiving",
+            "b) data normalization",
+            "c) data reduction",
+            "d) data retention"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Match the alert classification with the description.",
+        "matching": [
+            [
+                "malicious traffic is correctly identified as a threat",
+                "true positive"
+            ],
+            [
+                "normal traffic is incorrectly identified as a threat",
+                "false positive"
+            ],
+            [
+                "malicious traffic is not identified as a threat",
+                "false negative"
+            ],
+            [
+                "normal traffic is not identified as a threat",
+                "true negative"
+            ]
+        ],
+        "answers": [
+            "false positive",
+            "false negative",
+            "true positive",
+            "true negative"
+        ],
+        "answer": [
+            2,
+            3,
+            1,
+            4
+        ]
+    },
+    {
+        "question": "According to NIST, which step in the digital forensics process involves preparing and presenting information that resulted from scrutinizing data?",
+        "options": [
+            "a) examination",
+            "b) collection",
+            "c) reporting",
+            "d) analysis"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Refer to the exhibit. A cybersecurity analyst is using Sguil to verify security alerts. How is the current view sorted?",
+        "options": [
+            "a) by sensor number",
+            "b) by source IP",
+            "c) by date/time",
+            "d) by frequency"
+        ],
+        "answer": [
+            "d"
+        ],
+        "image": "Sec_179.jpg"
+    },
+    {
+        "question": "Which two options are window managers for Linux?\n(Choose two.)",
+        "options": [
+            "a) File Explorer",
+            "b) Kali",
+            "c) Gnome",
+            "d) PenTesting",
+            "e) KDE"
+        ],
+        "answer": [
+            "c",
+            "e"
+        ]
+    },
+    {
+        "question": "What are the two methods that a wireless NIC can use to discover an AP?\n(Choose two.)",
+        "options": [
+            "a) transmitting a probe request",
+            "b) sending an ARP request broadcast",
+            "c) initiating a three-way handshake",
+            "d) receiving a broadcast beacon frame",
+            "e) sending a multicast frame"
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+    {
+        "question": "A client device has initiated a secure HTTP request to a web browser. Which well-known port address number is associated with the destination address?",
+        "options": [
+            "a) 110",
+            "b) 80",
+            "c) 443",
+            "d) 404"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which term describes evidence that is in its original state?",
+        "options": [
+            "a) Corroborating evidence",
+            "b) Best evidence",
+            "c) Indirect evidence",
+            "d) Direct evidence"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Which three statements describe a DHCP Discover message?\n(Choose three.)",
+        "options": [
+            "a) The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).",
+            "b) The destination IP address is 255.255.255.255.",
+            "c) The message comes from a server offering an IP address.",
+            "d) The message comes from a client seeking an IP address.",
+            "e) All hosts receive the message, but only a DHCP server replies.",
+            "f) Only the DHCP server receives the message."
+        ],
+        "answer": [
+            "b",
+            "d",
+            "e"
+        ]
+    },
+    {
+        "question": "Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, match the NAT address type with the correct IP address.\n(Not all options are used.)",
+        "matching": [
+            [
+                "203.0.113.5",
+                "Outside global"
+            ],
+            [
+                "203.0.113.14"
+            ],
+            [
+                "192.0.2.2"
+            ],
+            [
+                "192.0.2.1",
+                "inside global"
+            ],
+            [
+                "10.130.5.1"
+            ],
+            [
+                "10.130.5.76",
+                "inside local"
+            ]
+        ],
+        "answers": [
+            "inside global",
+            "Outside global",
+            "inside local"
+        ],
+        "answer": [
+            4,
+            1,
+            6
+        ],
+        "image": "Sec_185.jpg"
+    },
+    {
+        "question": " Which step in the Vulnerability Management Life Cycle categorizes assets into groups or business units, and assigns a business value to asset groups based on their criticality to business operations?",
+        "options": [
+            "a) remediate",
+            "b) prioritize assets",
+            "c) report",
+            "d) assess"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "A client application needs to terminate a TCP communication session with a server. Place the termination process steps in the order that they will occur.",
+        "matching": [
+            [
+                "server sends ACK",
+                "step 2"
+            ],
+            [
+                "server sends FIN",
+                "step 3"
+            ],
+            [
+                "client sends ACK",
+                "step 4"
+            ],
+            [
+                "client sends FIN",
+                "step 1"
+            ]
+        ],
+        "answers": [
+            "step 4",
+            "step 3",
+            "step 1",
+            "step 2"
+        ],
+        "answer": [
+            3,
+            2,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "Match the attack vector with the description.",
+        "matching": [
+            [
+                "initiated through an email attachment",
+                "email"
+            ],
+            [
+                "initiated from external storage",
+                "media"
+            ],
+            [
+                "uses brute force against devices or services",
+                "attrition"
+            ],
+            [
+                "initiated from a website application",
+                "web"
+            ]
+        ],
+        "answers": [
+           "web",
+           "email",
+           "attrition",
+           "media"
+        ],
+        "answer": [
+            4,
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "question": "Match the security management function with the description.",
+        "matching": [
+            [
+                "the comprehensive analysis of impacts of attacks on core company assets and functioning",
+                "risk management"
+            ],
+            [
+                "the implementation of systems that track the location and configuration of networked devices and software across an enterprise",
+                "assess management"
+            ],
+            [
+                "the security practice designed to proactively prevent the exploitation of IT vulnerabilities that exist within an organization",
+                "vulnerability management"
+            ],
+            [
+                "the inventory and control of hardware and software configurations of systems",
+                "configuration management"
+            ]
+        ],
+        "answers": [
+            "configuration management",
+            "vulnerability management",
+            "risk management",
+            "asset management"
+        ],
+        "answer": [
+            4,
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "What are two functions that are provided by the network layer?\n(Choose two.)",
+        "options": [
+            "a) directing data packets to destination hosts on other networks",
+            "b) placing data on the network medium",
+            "c) carrying data between processes that are running on source and destination hosts",
+            "d) providing dedicated end-to-end connections",
+            "e) providing end devices with a unique network identifier"
+        ],
+        "answer": [
+            "a",
+            "e"
+        ]
+    },
+    {
+        "question": "Match the phase in the NIST incident response life cycle to the action.",
+        "matching": [
+            [
+                "Document incident handling.",
+                "post-incident activities"
+            ],
+            [
+                "Conduct CSIRT response training.",
+                "preparation"
+            ],
+            [
+                "Identify, analyze, and validate an incident.",
+                "detection and analysis"
+            ],
+            [
+                "Implement procedures to contain the threat.",
+                "containment, eradication, and recovery"
+            ]
+        ],
+        "answers": [
+            "preparation",
+            "detection and analysis",
+            "containment, eradication, and recovery",
+            "post-incident activities"
+        ],
+        "answer": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    {
+        "question": "Match the Linux CLI commands to their function.\n(Not all options are used.)",
+        "matching": [
+            [
+                "copies files from source to destination"
+            ],
+            [
+                "changes the current directory",
+                "cd"
+            ],
+            [
+                "removes files",
+                "rm"
+            ],
+            [
+                "creates a directory under the current directory",
+                "mkdir"
+            ],
+            [
+                "displays the files inside a directory",
+                "ls"
+            ],
+            [
+                "moves files to a different directory"
+            ],
+            [
+                "displays the documentation for a specific command",
+                "man"
+            ]
+        ],
+        "answers": [
+            "rm",
+            "man",
+            "ls",
+            "cd",
+            "mkdir"
+        ],
+        "answer": [
+            3,
+            7,
+            5,
+            2,
+            4
         ]
     }
 ]
