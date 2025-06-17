@@ -3143,5 +3143,751 @@
             2,
             4
         ]
+    },
+    {
+        "question": "What are two problems that can be caused by a large number of ARP request and reply messages? (Choose two.)",
+        "options": [
+            "a) All ARP request messages must be processed by all nodes on the local network.",
+            "b) A large number of ARP request and reply messages may slow down the switching process, leading the switch to make many changes in its MAC table.",
+            "c) The network may become overloaded because ARP reply messages have a very large payload due to the 48-bit MAC address and 32-bit IP address that they contain.",
+            "d) The ARP request is sent as a broadcast, and will flood the entire subnet.",
+            "e) Switches become overloaded because they concentrate all the traffic from the attached subnets."
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+    {
+        "question": "Refer to the exhibit. Which field in the Sguil application window indicates the priority of an event or set of correlated events?",
+        "options": [
+            "a) ST",
+            "b) AlertID",
+            "c) Pr",
+            "d) CNT"
+        ],
+        "answer": [
+            "a"
+        ],
+        "image": "Sec_pr_2.jpg"
+    },
+    {
+        "question": "Match the job titles to SOC personnel positions.\n(Not all options are used.)",
+        "matching": [
+            [
+                "monitors incoming alerts and verifies that a true incident has occurred",
+                "Tier 1 Alert Analyst"
+            ],
+            [
+                "involved in deep investigation of incidents",
+                "Tier 2 Incident Responder"
+            ],
+            [
+                "serves as the point of contact for the larger organization"
+            ],
+            [
+                "involved in hunting for potential threats and implements threat detection tools",
+                "Tier 3 Subject Matter Expert"
+            ]
+        ],
+        "answers": [
+            "Tier 1 Alert Analyst",
+            "Tier 2 Incident Responder",
+            "Tier 3 Subject Matter Expert"
+        ],
+        "answer": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "If the default gateway is configured incorrectly on the host, what is the impact on communications?",
+        "options": [
+            "a) The host is unable to communicate on the local network.",
+            "b) The host can communicate with other hosts on the local network, but is unable to communicate with hosts on remote networks.",
+            "c) The host can communicate with other hosts on remote networks, but is unable to communicate with hosts on the local network.",
+            "d) There is no impact on communications."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "When a connectionless protocol is in use at a lower layer of the OSI model, how is missing data detected and retransmitted if necessary?",
+        "options": [
+            "a) Connectionless acknowledgements are used to request retransmission.",
+            "b) Upper-layer connection-oriented protocols keep track of the data received and can request retransmission from the upper-level protocols on the sending host.",
+            "c) Network layer IP protocols manage the communication sessions if connection-oriented transport services are not available.",
+            "d) The best-effort delivery process guarantees that all packets that are sent are received."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What is the prefix length notation for the subnet mask 255.255.255.224?",
+        "options": [
+            "a) /25",
+            "b) /26",
+            "c) /27",
+            "d) /28"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which network monitoring tool saves captured network frames in PCAP files?",
+        "options": [
+            "a) NetFlow",
+            "b) Wireshark",
+            "c) SNMP",
+            "d) SIEM"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What is the TCP mechanism used in congestion avoidance?",
+        "options": [
+            "a) three-way handshake",
+            "b) socket pair",
+            "c) two-way handshake",
+            "d) sliding window"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "What is the Internet?",
+        "options": [
+            "a) It is a network based on Ethernet technology.",
+            "b) It provides network access for mobile devices.",
+            "c) It provides connections through interconnected global networks.",
+            "d) It is a private network for an organization with LAN and WAN connections."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which protocol is used by the traceroute command to send and receive echo-requests and echo-replies?",
+        "options": [
+            "a) SNMP",
+            "b) ICMP",
+            "c) Telnet",
+            "d) TCP"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What are two ICMPv6 messages that are not present in ICMP for IPv4?\n(Choose two.)",
+        "options": [
+            "a) Neighbor Solicitation",
+            "b) Destination Unreachable",
+            "c) Host Confirmation",
+            "d) Time Exceeded",
+            "e) Router Advertisement",
+            "f) Route Redirection"
+        ],
+        "answer": [
+            "a",
+            "e"
+        ]
+    },
+    {
+        "question": "Match the network security testing technique with how it is used to test network security.\n(Not all options are used.)",
+        "matching": [
+            [
+                "used to determine the possible consequences of successful attacks on the network",
+                "penetration testing"
+            ],
+            [
+                "used to discover available resources on the network",
+                "network scanning"
+            ],
+            [
+                "used to find weaknesses and misconfigurations on network systems",
+                "vulnerability scanning"
+            ],
+            [
+                "used to detect and report changes made to systems"
+            ]
+        ],
+        "answers": [
+            "penetration testing",
+            "vulnerability scanning",
+            "network scanning"
+        ],
+        "answer": [
+            1,
+            3,
+            2
+        ]
+    },
+    {
+        "question": "What are two monitoring tools that capture network traffic and forward it to network monitoring devices?\n(Choose two.)",
+        "options": [
+            "a) SPAN",
+            "b) network tap",
+            "c) SNMP",
+            "d) SIEM",
+            "e) Wireshark"
+        ],
+        "answer": [
+            "a",
+            "b"
+        ]
+    },
+    {
+        "question": "Which network monitoring tool is in the category of network protocol analyzers?",
+        "options": [
+            "a) SNMP",
+            "b) SPAN",
+            "c) Wireshark",
+            "d) SIEM"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Based on the command output shown, which file permission or permissions have been assigned to the other user group for the data.txt file?",
+        "options": [
+            "a) full access",
+            "b) read, write",
+            "c) read",
+            "d) read, write, execute"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What are three benefits of using symbolic links over hard links in Linux?\n(Choose three.)",
+        "options": [
+            "a) They can link to a directory.",
+            "b) They can be compressed.",
+            "c) Symbolic links can be exported.",
+            "d) They can be encrypted.",
+            "e) They can link to a file in a different file system.",
+            "f) They can show the location of the original file."
+        ],
+        "answer": [
+            "a",
+            "e",
+            "f"
+        ]
+    },
+    {
+        "question": "A network security specialist is tasked to implement a security measure that monitors the status of critical files in the data center and sends an immediate alert if any file is modified. Which aspect of secure communications is addressed by this security measure?",
+        "options": [
+            "a) origin authentication",
+            "b) data integrity",
+            "c) nonrepudiation",
+            "d) data confidentiality"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "A network administrator is configuring an AAA server to manage TACACS+ authentication. What are two attributes of TACACS+ authentication?\n(Choose two.)",
+        "options": [
+            "a) TCP port 40",
+            "b) encryption for all communication",
+            "c) single process for authentication and authorization",
+            "d) UDP port 1645",
+            "e) encryption for only the password of a user",
+            "f) separate processes for authentication and authorization"
+        ],
+        "answer": [
+            "b",
+            "f"
+        ]
+    },
+    {
+        "question": "In an attempt to prevent network attacks, cyber analysts share unique identifiable attributes of known attacks with colleagues. What three types of attributes or indicators of compromise are helpful to share?\n(Choose three.)",
+        "options": [
+            "a) IP addresses of attack servers",
+            "b) changes made to end system software",
+            "c) netbios names of compromised firewalls",
+            "d) features of malware files",
+            "e) BIOS of attacking systems",
+            "f) system ID of compromised systems"
+        ],
+        "answer": [
+            "a",
+            "b",
+            "d"
+        ]
+    },
+    {
+        "question": "Which two types of messages are used in place of ARP for address resolution in IPv6?\n(Choose two.)",
+        "options": [
+            "a) anycast",
+            "b) broadcast",
+            "c) neighbor solicitation",
+            "d) echo reply",
+            "e) echo request",
+            "f) neighbor advertisement"
+        ],
+        "answer": [
+            "c",
+            "f"
+        ]
+    },
+    {
+        "question": "What is indicated by a true negative security alert classification?",
+        "options": [
+            "a) An alert is verified to be an actual security incident.",
+            "b) An alert is incorrectly issued and does not indicate an actual security incident.",
+            "c) Normal traffic is correctly ignored and erroneous alerts are not being issued.",
+            "d) Exploits are not being detected by the security systems that are in place."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which statement describes the anomaly-based intrusion detection approach?",
+        "options": [
+            "a) It compares the antivirus definition file to a cloud based repository for latest updates.",
+            "b) It compares the behavior of a host to an established baseline to identify potential intrusions.",
+            "c) It compares the signatures of incoming traffic to a known intrusion database.",
+            "d) It compares the operations of a host against a well-defined security policy."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Match the description to the antimalware approach.\n(Not all options are used.)",
+        "matching": [
+            [
+                "recognizing various characteristics of known malware files",
+                "signature-based"
+            ],
+            [
+                "analyzing suspicious activities",
+                "behavior-based"
+            ],
+            [
+                "recognizing general features shared by various types of malware",
+                "heuristics-based"
+            ]
+        ],
+        "answers": [
+            "signature-based",
+            "agent-based",
+            "behavior-based",
+            "heuristics-based"
+        ],
+        "answer": [
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Which two protocols are associated with the transport layer?\n(Choose two.)",
+        "options": [
+            "a) ICMP",
+            "b) IP",
+            "c) UDP",
+            "d) PPP",
+            "e) TCP"
+        ],
+        "answer": [
+            "c",
+            "e"
+        ]
+    },
+    {
+        "question": "A network administrator is creating a network profile to generate a network baseline. What is included in the critical asset address space element?",
+        "options": [
+            "a) the time between the establishment of a data flow and its termination",
+            "b) the TCP and UDP daemons and ports that are allowed to be open on the server",
+            "c) the IP addresses or the logical location of essential systems or data",
+            "d) the list of TCP or UDP processes that are available to accept data"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What are the three impact metrics contained in the CVSS 3.0 Base Metric Group?\n(Choose three.)",
+        "options": [
+            "a) confidentiality",
+            "b) remediation level",
+            "c) integrity",
+            "d) attack vector",
+            "e) exploit",
+            "f) availability"
+        ],
+        "answer": [
+            "a",
+            "c",
+            "f"
+        ]
+    },
+    {
+        "question": "What is a characteristic of DNS?",
+        "options": [
+            "a) DNS servers can cache recent queries to reduce DNS query traffic.",
+            "b) All DNS servers must maintain mappings for the entire DNS structure.",
+            "c) DNS servers are programmed to drop requests for name translations that are not within their zone.",
+            "d) DNS relies on a hub-and-spoke topology with centralized servers."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "What are two differences between HTTP and HTTP/2?\n(Choose two.)",
+        "options": [
+            "a) HTTP/2 uses a compressed header to reduce bandwidth requirements.",
+            "b) HTTP/2 uses multiplexing to support multiple streams and enhance efficiency.",
+            "c) HTTP/2 uses different status codes than HTTP does to improve performance.",
+            "d) HTTP/2 issues requests using a text format whereas HTTP uses binary commands.",
+            "e) HTTP has a different header format than HTTP/2 has."
+        ],
+        "answer": [
+            "a",
+            "b"
+        ]
+    },
+    {
+        "question": "Match the steps with the actions that are involved when an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT.\n(Not all options are used.)",
+        "matching": [
+            [
+                "Step 1",
+                "The host sends packets that request a connection to the server at the address 209.165.200.254."
+            ],
+            [
+                "Step 2",
+                "R1 checks the NAT configuration to determine if this packet should be translated."
+            ],
+            [
+                "Step 3",
+                "If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated."
+            ],
+            [
+                "Step 4",
+                "R1 selects an available global address from the dynamic address pool."
+            ],
+            [
+                "Step 5",
+                "R1 replaces the address 192.168.10.10 with a translated inside global address."
+            ]
+        ],
+        "answers": [
+            "The host sends packets that request a connection to the server at the address 209.165.200.254.",
+            "R1 checks the NAT configuration to determine if this packet should be translated.",
+            "R1 selects an available global address from the dynamic address pool.",
+            "R1 replaces the address 192.168.10.10 with a translated inside global address.",
+            "If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.",
+            "R1 translates the IP address in the packets from 209.65.200.254 to 192.168.10.10."
+        ],
+        "answer": [
+            1,
+            2,
+            4,
+            5,
+            3
+        ]
+    },
+    {
+        "question": "A router has received a packet destined for a network that is in the routing table. What steps does the router perform to send this packet on its way? Match the step to the task performed by the router.",
+        "matching": [
+            [
+                "Step 1",
+                "It de-encapsulates the Layer 2 frame header and trailer to expose the Layer 3 packet."
+            ],
+            [
+                "Step 2",
+                "It examines the destination IP address to find the best path in the routing table."
+            ],
+            [
+                "Step 3",
+                "It encapsulates the Layer 3 packet into a new Layer 2 frame and forwards the frame out the exit interface."
+            ]
+        ],
+        "answers": [
+            "It encapsulates the Layer 3 packet into a new Layer 2 frame and forwards the frame out the exit interface.",
+            "It de-encapsulates the Layer 2 frame header and trailer to expose the Layer 3 packet.",
+            "It examines the destination IP address to find the best path in the routing table."
+        ],
+        "answer": [
+            3,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "What are two shared characteristics of the IDS and the IPS?\n(Choose two.)",
+        "options": [
+            "a) Both have minimal impact on network performance.",
+            "b) Both are deployed as sensors.",
+            "c) Both analyze copies of network traffic.",
+            "d) Both use signatures to detect malicious traffic.",
+            "e) Both rely on an additional network device to respond to malicious traffic."
+        ],
+        "answer": [
+            "b",
+            "d"
+        ]
+    },
+    {
+        "question": "Which statement describes a typical security policy for a DMZ firewall configuration?",
+        "options": [
+            "a) Traffic that originates from the DMZ interface is selectively permitted to the outside interface.",
+            "b) Return traffic from the inside that is associated with traffic originating from the outside is permitted to traverse from the inside interface to the outside interface.",
+            "c) Return traffic from the outside that is associated with traffic originating from the inside is permitted to traverse from the outside interface to the DMZ interface.",
+            "d) Traffic that originates from the inside interface is generally blocked entirely or very selectively permitted to the outside interface.",
+            "e) Traffic that originates from the outside interface is permitted to traverse the firewall to the inside interface with few or no restrictions."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "After complaints from users, a technician identifies that the college web server is running very slowly. A check of the server reveals that there are an unusually large number of TCP requests coming from multiple locations on the Internet. What is the source of the problem?",
+        "options": [
+            "a) The server is infected with a virus.",
+            "b) A DDoS attack is in progress.",
+            "c) There is insufficient bandwidth to connect to the server.",
+            "d) There is a replay attack in progress."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Which two statements describe access attacks?\n(Choose two.)",
+        "options": [
+            "a) Password attacks can be implemented by the use of brute-force attack methods, Trojan horses, or packet sniffers.",
+            "b) To detect listening services, port scanning attacks scan a range of TCP or UDP port numbers on a host.",
+            "c) Port redirection attacks use a network adapter card in promiscuous mode to capture all network packets that are sent across a LAN.",
+            "d) Trust exploitation attacks often involve the use of a laptop to act as a rogue access point to capture and copy all network traffic in a public location, such as a wireless hotspot.",
+            "e) Buffer overflow attacks write data beyond the allocated buffer memory to overwrite valid data or to exploit systems to execute malicious code."
+        ],
+        "answer": [
+            "a",
+            "e"
+        ]
+    },
+    {
+        "question": "Which two actions can be taken when configuring Windows Firewall?\n(Choose two.)",
+        "options": [
+            "a) Turn on port screening.",
+            "b) Manually open ports that are required for specific applications.",
+            "c) Allow a different software firewall to control access.",
+            "d) Enable MAC address authentication.",
+            "e) Perform a rollback."
+        ],
+        "answer": [
+            "b",
+            "c"
+        ]
+    },
+    {
+        "question": "Which statement describes the state of the administrator and guest accounts after a user installs Windows desktop version to a new computer?",
+        "options": [
+            "a) By default, the guest account is enabled but the administrator account is disabled.",
+            "b) By default, both the administrator and guest accounts are enabled.",
+            "c) By default, both the administrator and guest accounts are disabled.",
+            "d) By default, the administrator account is enabled but the guest account is disabled."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What is a purpose of entering the nslookup cisco.com command on a Windows PC?",
+        "options": [
+            "a) to check if the DNS service is running",
+            "b) to connect to the Cisco server",
+            "c) to test if the Cisco server is reachable",
+            "d) to discover the transmission time needed to reach the Cisco server"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "How is the event ID assigned in Sguil?",
+        "options": [
+            "a) All events in the series of correlated events are assigned the same event ID.",
+            "b) Only the first event in the series of correlated events is assigned a unique ID.",
+            "c) All events in the series of correlated events are assigned the same event group ID.",
+            "d) Each event in the series of correlated events is assigned a unique ID."
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Which two types of network traffic are from protocols that generate a lot of routine traffic?\n(Choose two.)",
+        "options": [
+            "a) routing updates traffic",
+            "b) Windows security auditing alert traffic",
+            "c) IPsec traffic",
+            "d) STP traffic",
+            "e) SSL traffic"
+        ],
+        "answer": [
+            "a",
+            "d"
+        ]
+    },
+    {
+        "question": "What are two elements that form the PRI value in a syslog message?\n(Choose two.)",
+        "options": [
+            "a) facility",
+            "b) timestamp",
+            "c) severity",
+            "d) header",
+            "e) hostname"
+        ],
+        "answer": [
+            "a",
+            "c"
+        ]
+    },
+     {
+        "question": "Which three pieces of information are found in session data?\n(Choose three.)",
+        "options": [
+            "a) default gateway IP address",
+            "b) source and destination port numbers",
+            "c) Layer 4 transport protocol",
+            "d) source and destination MAC addresses",
+            "e) user name",
+            "f) source and destination IP addresses"
+        ],
+        "answer": [
+            "b",
+            "c",
+            "f"
+        ]
+    },
+    {
+        "question": "What kind of ICMP message can be used by threat actors to perform network reconnaissance and scanning attacks?",
+        "options": [
+            "a) ICMP mask reply",
+            "b) ICMP router discovery",
+            "c) ICMP unreachable",
+            "d) ICMP redirects"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "A flood of packets with invalid source IP addresses requests a connection on the network. The server busily tries to respond, resulting in valid requests being ignored. What type of attack has occurred?",
+        "options": [
+            "a) TCP session hijacking",
+            "b) TCP SYN flood",
+            "c) TCP reset",
+            "d) UDP flood"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "An attacker is redirecting traffic to a false default gateway in an attempt to intercept the data traffic of a switched network. What type of attack could achieve this?",
+        "options": [
+            "a) DNS tunneling",
+            "b) TCP SYN flood",
+            "c) DHCP spoofing",
+            "d) ARP cache poisoning"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What is the most common goal of search engine optimization (SEO) poisoning?",
+        "options": [
+            "a) to increase web traffic to malicious sites",
+            "b) to build a botnet of zombies",
+            "c) to trick someone into installing malware or divulging personal information",
+            "d) to overwhelm a network device with maliciously formed packets"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Users report that a database file on the main server cannot be accessed. A database administrator verifies the issue and notices that the database file is now encrypted. The organization receives a threatening email demanding payment for the decryption of the database file. What type of attack has the organization experienced?",
+        "options": [
+            "a) man-in-the-middle attack",
+            "b) DoS attack",
+            "c) ransomware",
+            "d) Trojan horse"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What two kinds of personal information can be sold on the dark web by cybercriminals?\n(Choose two.)",
+        "options": [
+            "a) city of residence",
+            "b) Facebook photos",
+            "c) name of a bank",
+            "d) name of a pet",
+            "e) street address"
+        ],
+        "answer": [
+            "b",
+            "e"
+        ]
+    },
+    {
+        "question": "What three services are offered by FireEye?\n(Choose three.)",
+        "options": [
+            "a) blocks attacks across the web",
+            "b) creates firewall rules dynamically",
+            "c) identifies and stops latent malware on files",
+            "d) subjects all traffic to deep packet inspection analysis",
+            "e) deploys incident detection rule sets to network security tools",
+            "f) identifies and stops email threat vectors"
+        ],
+        "answer": [
+            "a",
+            "c",
+            "f"
+        ]
+    },
+    {
+        "question": "After containment, what is the first step of eradicating an attack?",
+        "options": [
+            "a) Change all passwords.",
+            "b) Patch all vulnerabilities.",
+            "c) Hold meetings on lessons learned.",
+            "d) Identify all hosts that need remediation."
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Which activity is typically performed by a threat actor in the installation phase of the Cyber Kill Chain?",
+        "options": [
+            "a) Install a web shell on the target web server for persistent access.",
+            "b) Harvest email addresses of user accounts.",
+            "c) Open a two-way communication channel to the CnC infrastructure.",
+            "d) Obtain an automated tool to deliver the malware payload."
+        ],
+        "answer": [
+            "a"
+        ]
     }
 ]
