@@ -3889,5 +3889,317 @@
         "answer": [
             "a"
         ]
+    },
+    {
+       "question": "When dealing with a security threat and using the Cyber Kill Chain model, which two approaches can an organization use to help block potential exploitations on a system?\n(Choose two.)",
+       "options": [
+            "a) Collect email and web logs for forensic reconstruction.",
+            "b) Conduct full malware analysis.",
+            "c) Train web developers for securing code.",
+            "d) Build detections for the behavior of known weaponizers.",
+            "e) Perform regular vulnerability scanning and penetration testing."
+       ],
+       "answer": [
+            "c",
+            "e"
+       ]
+    },
+    {
+        "question": "How might corporate IT professionals deal with DNS-based cyber threats?",
+        "options": [
+            "a) Limit the number of simultaneously opened browsers or browser tabs.",
+            "b) Monitor DNS proxy server logs and look for unusual DNS queries.",
+            "c) Use IPS/IDS devices to scan internal corporate traffic.",
+            "d) Limit the number of DNS queries permitted within the organization."
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "How does using HTTPS complicate network security monitoring?",
+        "options": [
+            "a) HTTPS adds complexity to captured packets.",
+            "b) HTTPS cannot protect visitors to a company-provided web site.",
+            "c) Web browser traffic is directed to infected servers.",
+            "d) HTTPS can be used to infiltrate DNS queries."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Match the security concept to the description.",
+        "matching": [
+            [
+                "the likelihood of undesireable consequences",
+                "risk"
+            ],
+            [
+                "a mechanism used to compromise an asset",
+                "exploit"
+            ],
+            [
+                "a weakness in a system",
+                "vulnerability"
+            ],
+            [
+                "a potential danger to an asset",
+                "threat"
+            ]
+        ],
+        "answers": [
+            "threat",
+            "vulnerability",
+            "exploit",
+            "risk"
+        ],
+        "answer": [
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "question": "What are the two important components of a public key infrastructure (PKI) used in network security?\n(Choose two.)",
+        "options": [
+            "a) intrusion prevention system",
+            "b) digital certificates",
+            "c) symmetric encryption algorithms",
+            "d) certificate authority",
+            "e) pre-shared key generation"
+        ],
+        "answer": [
+            "b",
+            "d"
+        ]
+    },
+    {
+        "question": "Which three algorithms are designed to generate and verify digital signatures?\n(Choose three.)",
+        "options": [
+            "a) 3DES",
+            "b) IKE",
+            "c) DSA",
+            "d) AES",
+            "e) ECDSA",
+            "f) RSA"
+        ],
+        "answer": [
+            "c",
+            "e",
+            "f"
+        ]
+    },
+    {
+        "question": "Which section of a security policy is used to specify that only authorized individuals should have access to enterprise data?",
+        "options": [
+            "a) statement of authority",
+            "b) identification and authentication policy",
+            "c) campus access policy",
+            "d) Internet access policy",
+            "e) statement of scope",
+            "f) acceptable use policy"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "Refer to the exhibit. A cybersecurity analyst is viewing captured packets forwarded on switch S1. Which device has the MAC address d8:cb:8a:5c:d5:8a?",
+        "options": [
+            "a) PC-A",
+            "b) DNS server",
+            "c) web server",
+            "d) router DG",
+            "e) router ISP"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "What kind of message is sent by a DHCPv4 client requesting an IP address?",
+        "options": [
+            "a) DHCPDISCOVER broadcast message",
+            "b) DHCPDISCOVER unicast message",
+            "c) DHCPOFFER unicast message",
+            "d) DHCPACK unicast message"
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Place the evidence collection priority from most volatile to least volatile as defined by the IETF guidelines.",
+        "matching": [
+            [
+                "1. (most volatile)",
+                "memory registers, caches"
+            ],
+            [
+                "2.",
+                "routing table, ARP cache, process table, kernel statistics, RAM"
+            ],
+            [
+                "3.",
+                "temporary file systems"
+            ],
+            [
+                "4.",
+                "non-volatile media, fixed and removable"
+            ],
+            [
+                "5.",
+                "remote logging and monitoring data"
+            ],
+            [
+                "6.",
+                "physical interconnections and topologies"
+            ],
+            [
+                "7. (least volatile)",
+                "archival media, tape or other backups"
+            ]
+        ],
+        "answers": [
+            "physical interconnections and topologies",
+            "memory registers, caches",
+            "remote logging and monitoring data",
+            "routing table, ARP cache, process table, kernel statics, RAM",
+            "temporary file systems",
+            "archival media, tape or other backups",
+            "non-volatile media, fixed and removable"
+        ],
+        "answer": [
+            6,
+            1,
+            5,
+            2,
+            3,
+            7,
+            4
+        ]
+    },
+    {
+        "question": "What is the responsibility of the human resources department when handling a security incident?",
+        "options": [
+            "a) Coordinate the incident response with other stakeholders and minimize the damage of the incident.",
+            "b) Perform actions to minimize the effectiveness of the attack and preserve evidence.",
+            "c) Apply disciplinary measures if an incident is caused by an employee.",
+            "d) Review the incident policies, plans, and procedures for local or federal guideline violations."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "How does a security information and event management system (SIEM) in a SOC help the personnel fight against security threats?",
+        "options": [
+            "a) by integrating all security devices and appliances in an organization",
+            "b) by analyzing logging data in real time",
+            "c) by combining data from multiple technologies",
+            "d) by dynamically implementing firewall rules"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "At which OSI layer is a source IP address added to a PDU during the encapsulation process?",
+        "options": [
+            "a) network layer",
+            "b) transport layer",
+            "c) data link layer",
+            "d) application layer"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "What is the purpose of CSMA/CA?",
+        "options": [
+            "a) to prevent loops",
+            "b) to isolate traffic",
+            "c) to filter traffic",
+            "d) to prevent collisions"
+        ],
+        "answer": [
+            "d"
+        ]
+    },
+    {
+        "question": "Why is DHCP preferred for use on large networks?",
+        "options": [
+            "a) Hosts on large networks require more IP addressing configuration settings than hosts on small networks.",
+            "b) It prevents sharing of files that are copyrighted.",
+            "c) It is a more efficient way to manage IP addresses than static address assignment.",
+            "d) Large networks send more requests for domain to IP address resolution than do smaller networks.",
+            "e) DHCP uses a reliable transport layer protocol."
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "Which NIST incident response life cycle phase includes continuous monitoring by the CSIRT to quickly identify and validate an incident?",
+        "options": [
+            "a) postincident activities",
+            "b) detection and analysis",
+            "c) containment, eradication, and recovery",
+            "d) preparation"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "What will a threat actor do to create a back door on a compromised target according to the Cyber Kill Chain model?",
+        "options": [
+            "a) Add services and autorun keys.",
+            "b) Collect and exfiltrate data.",
+            "c) Obtain an automated tool to deliver the malware payload.",
+            "d) Open a two-way communications channel to the CnC infrastructure."
+        ],
+        "answer": [
+            "a"
+        ]
+    },
+    {
+        "question": "Which type of evidence supports an assertion based on previously obtained evidence?",
+        "options": [
+            "a) direct evidence",
+            "b) corroborating evidence",
+            "c) best evidence",
+            "d) indirect evidence"
+        ],
+        "answer": [
+            "b"
+        ]
+    },
+    {
+        "question": "A technician is configuring email on a mobile device. The user wants to be able to keep the original email on the server, organize it into folders, and synchronize the folders between the mobile device and the server. Which email protocol should the technician use?",
+        "options": [
+            "a) POP3",
+            "b) MIME",
+            "c) IMAP",
+            "d) SMTP"
+        ],
+        "answer": [
+            "c"
+        ]
+    },
+    {
+        "question": "What is the goal of an attack in the installation phase of the Cyber Kill Chain?",
+        "options": [
+            "a) Break the vulnerability and gain control of the target.",
+            "b) Establish command and control (CnC) with the target system.",
+            "c) Create a back door in the target system to allow for future access.",
+            "d) Use the information from the reconnaissance phase to develop a weapon against the target."
+        ],
+        "answer": [
+            "c"
+        ]
     }
 ]
